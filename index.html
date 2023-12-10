@@ -27,8 +27,15 @@
     <h1>
         Please, Submit Users credentials
     </h1>
-    <form>
-        
+    <form action="./contact.html"> 
+        <input type="text" name="UserName" placeholder="Username">
+        <input type="password" name="Password" placeholder="Password">
+        <button onclick="myFunc1()">Log In</button>
+        <script>
+            function myFunc1(){
+                alert("Credentials are correct! Welcome!")
+            }
+        </script>
     </form>
 </body>
 </html>
